@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img/bg-2.png");
+  font-family: sans-serif;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  margin: auto;
+  width: 960px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+
+}
+nav {
+  display: inline-block;
+  width: 700px;
+}
+
+li {
+   text-align: left;
+   padding: 20px;
+   display: inline-block;
+}
+
+img {
+  float: left;
+  margin-top: 20px;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  margin-top: 27px;
+}
+
+.menu {
+    background-color: rgb(237, 77, 49);
+    list-style-type: none;
+    width: 960px;
+    top: 0;
+    border-radius: 110px 0 0 110px;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+ul{
+   margin: auto;
+   margin-top: 45px;
+}
+
+.cajablanca {
+  background-color: white;
+  float: left;
+  padding: 10px;
+  width: 960px;
+  margin: 150px auto;
+}
+
+.nombredelproducto {
+   background-color: rgba(75, 75, 75, 0.7);
+   font-style: italic;
+   width: 100%;
+   position: absolute;
+   color: white;
+   left: 0px;
+   top: 80px;
+   text-align: center;
+}
+
+.banderita {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+main {
+  margin: auto;
+  width: 960px;
+  position: relative;
+}
+
+.cajaproducto {
+  position: relative;
+  width: 300px;
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+button {
+  background-color: #d32f2f;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  bottom: 10px;
+  border: none;
+  border-radius: 10px;
+}

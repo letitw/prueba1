@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: orange;
+  width: 960px;
+  padding: 30px;
+  border: 1px solid black;
+  margin: auto;
+  position: fixed; /*clase4*/
+  top: 0; /*esto es para que el menu se quede arriba en proporcion*/
+  right: 0;
+  left: 0;
+}
+body {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+/*no me lo centro esto de abajo..*/
+main{
+  width: 960px;
+  margin: 100px auto;
+}
+
+footer {
+  width: 960px;
+  clear: both;
+  background-color: lightgreen;
+  padding: 30px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.pie li{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.menu {
+  list-style-type: none;
+  text-align: right;
+}
+
+.menu a{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px 30px;
+  text-decoration: none;
+  color: grey;
+  background-color: lightgrey;
+}
+section {
+  padding: 30px;
+  border: 1px solid black;
+  margin: 20px 0px 20px 0px;
+}
+
+.amarillo {
+  background-color: yellow;
+  float: right;
+  width: 49%;
+}
+/*PREGUNTAR POR ESTO PORQUE SI LE QUIERO
+AGREGAR MARGEN SE DESCOMPAGINA TODO*/
+
+.rosa {
+  background-color: pink;
+  float: left;
+  width: 49%;
+}

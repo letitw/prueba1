@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("images/bg-body.png");
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  color: white; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #508fb8;
+  border-radius: 50%;
+}
+
+img {
+  border-radius: 50%;
+  width: 70vw;
+  flex-wrap: wrap;
+}
+
+.card-data a{
+  background-color: #c7c7c7;
+  width: 40px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5%;
+}
